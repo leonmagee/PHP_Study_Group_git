@@ -8,6 +8,15 @@
 <h1>Header Tag</h1>
 Here is some content...
 <?php echo "php is working!"; ?>
+<?php
+if (isset($_GE['name'])) {
+   echo "Hello $_GET['name']!";
+} else {
+   echo "Hello Random person!";
+}
+
+
+?>
 </body>
 
 </html>
